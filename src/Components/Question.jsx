@@ -13,7 +13,7 @@ const Question = ({ qst }) => {
         <span className='text-lg sm:text-base'>{qst}</span>
         <img
           className='w-4 h-3 mb-1 sm:w-[18px] sm:h-[10px] cursor-pointer transition-transform duration-200 ease-in-out'
-          src="./src/assets/Vector.png"
+          src="/assets/Vector.png"
           alt="Toggle dropdown"
           onClick={toggleDropdown}
           style={{ transform: isDropdownVisible ? 'rotate(180deg)' : 'rotate(0deg)' }}

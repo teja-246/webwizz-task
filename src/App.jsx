@@ -3,11 +3,11 @@ import Question from './Components/Question';
 
 function App() {
   return (
-    <div className="bg-[url('/src/assets/bg.png')] min-h-screen w-full bg-cover bg-center bg-no-repeat overflow-x-hidden pb-8">
+    <div className="bg-[url('/assets/bg.png')] min-h-screen w-full bg-cover bg-center bg-no-repeat overflow-x-hidden pb-8">
       <div className='w-full flex justify-center px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 md:pt-10'>
         <img 
           className='h-12 sm:h-16 md:h-20 w-auto object-contain' 
-          src="./src/assets/FAQ.png" 
+          src="/assets/FAQ.png" 
           alt="FAQ" 
         />
       </div>
